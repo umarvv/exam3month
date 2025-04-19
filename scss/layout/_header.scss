@@ -1,0 +1,96 @@
+// HEADER STYLES
+// --------------------------------------------------
+.site-header {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.site-header-top {
+  padding: 30px 0;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+}
+
+.site-header-container {
+  max-width: 1240px;
+  width: 100%;
+}
+
+.currency-rates {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  line-height: 19px;
+
+  margin-right: 25px;
+}
+.currency-rates-item:first-child {
+  margin-right: 25px;
+}
+.currency-rates-bold {
+  font-weight: 700;
+  color: #2959ce;
+  margin-right: 1px;
+}
+.currency-rates-text {
+}
+.site-header-top-form {
+  margin-right: 25px;
+}
+.site-header-top-form-search {
+  width: 275px;
+  padding: 15px 10px 13px 41px;
+  border-radius: 60px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  background-image: url("../images/search-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 17.5px center;
+  background-size: 15px 15px;
+}
+.lang-toggler {
+  border-radius: 39px;
+  background-color: #dce6ff;
+  padding: 3px;
+  margin-right: 25px;
+}
+.lang-toggler-item {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+  line-height: 30px;
+  color: #a6a6a6;
+  text-decoration: none;
+}
+.lang-toggler-item-active {
+  color: #000;
+  background-color: #fff;
+}
+
+.site-header-bottom {
+  background-color: #fff;
+}
+
+.site-header-bottom-nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d1d1d1;
+  margin-bottom: 40px;
+}
+.site-header-bottom-list a {
+  color: #7f7f7f;
+}
+.site-header-bottom-list-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  gap: 33px;
+}
+.site-header-bottom-list-item a:hover {
+  color: #577fdd;
+}
+.site-header-bottom-list-item a:active {
+  opacity: 0.6;
+}
+

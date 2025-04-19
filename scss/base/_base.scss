@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myflex {
+  display: flex;
+}
+.myflex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myflex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.myflex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.myflex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

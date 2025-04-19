@@ -1,0 +1,175 @@
+/* MAIN SECTION STYLES */
+
+/*TESLA GLOBAL NEWS STYLES */
+.tesla-global-news {
+  display: flex;
+  position: relative;
+  padding-top: 10px;
+}
+
+/* TESLA NEWS LEFT MAIN SECTION */
+.tesla-left-news {
+  margin-right: 10px;
+}
+.tesla-news-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.tesla-news-top-img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.tesla-news-top-text,
+.tesla-news-top-time {
+  font-size: 14px;
+  line-height: 16.59px;
+  color: #5e5f61;
+}
+.tesla-news-top-time {
+  margin-left: 4px;
+}
+.tesla-left-news-title {
+  width: 797px;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #000000;
+}
+.tesla-left-news-img {
+  width: 797px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.tesla-left-news-text {
+  width: 797px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;
+}
+/* TESLA NEWS CARDS */
+.tesla-news-cards-title {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #000;
+}
+.tesla-news-cards-list {
+  list-style: none;
+  display: flex;
+  margin-left: -10px;
+  margin-bottom: 100px;
+}
+.tesla-news-cards-item {
+  background-color: #f6f6f6;
+  width: 393px;
+  padding: 20px 31px 18px 17px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.tesla-news-cards-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.tesla-news-cards-item-title:hover {
+  text-decoration: underline;
+}
+.tesla-news-cards-item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #4a4b4c;
+  margin-bottom: 23px;
+}
+.tesla-news-cards-footer {
+  display: flex;
+  align-items: center;
+}
+.tesla-news-cards-footer-img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.tesla-news-cards-footer-text,
+.tesla-news-cards-footer-time {
+  font-size: 12px;
+  line-height: 14.5px;
+  color: #5e5f61;
+}
+.tesla-news-cards-footer-time {
+  margin-left: 3px;
+}
+
+/* GLOBAL NEWS ASIDE SECTION STYLES */
+.global-news-aside {
+  width: 100%;
+  max-width: 393px;
+}
+.global-news-aside-list {
+  list-style: none;
+  background-color: #f6f6f6;
+  padding: 20px 17px 22px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.global-news-aside-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+  color: #000;
+  margin-bottom: 25px;
+}
+.global-news-aside-list-item:not(:last-child) {
+  padding-bottom: 19px;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 20px;
+}
+.global-news-aside-item-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  margin-bottom: 8px;
+  transition: all 0.5s ease-in-out;
+}
+.global-news-main-item-title-link:hover,
+.global-news-aside-item-title:hover {
+  text-decoration: underline;
+}
+.global-news-aside-item-footer {
+  display: flex;
+  align-items: center;
+}
+.global-news-aside-item-footer-text,
+.global-news-aside-item-footer-time {
+  font-size: 13px;
+  line-height: 15.41px;
+  color: #5e5f61;
+}
+.global-news-aside-item-footer-time {
+  margin-left: 4px;
+}
+.global-news-aside-reklama {
+  display: flex;
+}
+.global-news-aside-reklama-img {
+  width: 393px;
+  height: 338px;
+  display: block;
+  border-radius: 15px;
+  object-fit: cover;
+}

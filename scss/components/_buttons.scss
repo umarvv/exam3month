@@ -1,0 +1,32 @@
+.primary-btn {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #7296ec;
+  padding: 13px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.orange-btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.7px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #f78b3b;
+    padding: 13px 30px;
+    cursor: pointer;
+}
+.orange-btn:hover{
+    background-color: #f78d3bc9; 
+}
